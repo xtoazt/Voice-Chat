@@ -1,4 +1,4 @@
-const socket = io("https://voice-chatts.vercel.app"); // Replace with your deployed backend URL
+const socket = io("https://voice-chatts.vercel.app/api/server.js"); // Replace with your deployed backend URL
 let localStream;
 const userList = document.getElementById("user-list");
 const popup = document.getElementById("popup");
