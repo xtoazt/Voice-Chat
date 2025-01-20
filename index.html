@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        #user-list {
+            margin-top: 20px;
+            list-style-type: none;
+        }
+        .active {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voice Chat</h1>
+    <div id="popup">
+        <p>Enter your name to join the chat:</p>
+        <input type="text" id="nameInput" placeholder="Your name">
+        <button id="joinButton">Join Chat</button>
+    </div>
+    <ul id="user-list"></ul>
+    <script src="/main.js"></script>
+</body>
+</html>
